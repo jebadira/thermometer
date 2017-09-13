@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/thermometer/ThermometerWebPart.js",
+      "manifest": "./src/webparts/thermometer/ThermometerWebPart.manifest.json",
+      "outputPath": "./dist/thermometer.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "thermometerStrings": "webparts/thermometer/loc/{locale}.js"
+  }
+}

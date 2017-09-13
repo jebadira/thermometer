@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "thermometer-client-side-solution",
+    "id": "77052322-c5a6-4a1b-b86a-517d5c86d7be",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/thermometer.sppkg"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "585e51a0-ee2a-4f69-a95c-1c3f7218494c",
+  "alias": "ThermometerWebPart",
+  "componentType": "WebPart",
+  "version": "*", // The "*" signifies that the version should be taken from the package.json
+  "manifestVersion": 2,
+
+  /**
+   * This property should only be set to true if it is certain that the webpart does not
+   *  allow arbitrary scripts to be called
+   */
+  "safeWithCustomScriptDisabled": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "585e51a0-ee2a-4f69-a95c-1c3f7218494c",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Thermometer" },
+    "description": { "default": "Thermometer description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Thermometer"
+    }
+  }]
+}
