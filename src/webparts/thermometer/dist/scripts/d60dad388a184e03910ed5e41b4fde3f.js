@@ -4265,8 +4265,8 @@ var Thermometer = function (_React$Component) {
 
             return _react2.default.createElement(
                 'div',
-                { style: { width: "100%", height: "100%" } },
-                this.state.imageUri ? _react2.default.createElement('img', { src: this.state.imageUri, style: { width: "100%", height: 550 } }) : null
+                { style: { width: "100%", height: "100%", textAlign: "center" } },
+                this.state.imageUri ? _react2.default.createElement('img', { src: this.state.imageUri, style: { maxHeight: 540 } }) : null
             );
         }
     }]);
