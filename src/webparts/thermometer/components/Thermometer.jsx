@@ -58,7 +58,7 @@ export default class Thermometer extends React.Component{
         return(
             <div style={{width: "100%", height: "100%", textAlign: "center"}}>
                 {this.state.imageUri ? 
-                <img src={this.state.imageUri} style={{maxHeight: 540}}/>
+                <img src={this.state.imageUri} style={{maxHeight: 540, width: "100%", maxWidth:350}}/>
                 : null }
             </div>
         )
